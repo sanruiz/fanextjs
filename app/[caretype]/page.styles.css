@@ -1,0 +1,23 @@
+article {
+  /* @apply font-normal; */
+  @apply leading-relaxed;
+  @apply my-4;
+}
+article p{
+  @apply my-2;
+  @apply text-base font-light
+  /* @apply font-normal */
+}
+
+article ul{
+  @apply list-disc;
+  @apply list-inside;
+}
+
+article li{
+  @apply text-base font-light
+}
+
+article b, article strong{
+  @apply font-bold;
+}

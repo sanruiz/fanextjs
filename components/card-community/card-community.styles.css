@@ -1,0 +1,68 @@
+li.assisted::marker {
+    @apply text-assisted;
+    font-weight: 900;
+  }
+  li.home_care::marker {
+    @apply text-home_care;
+    font-weight: 900;
+  }
+  li.nursing_homes::marker {
+    @apply text-nursing_homes;
+    font-weight: 900; 
+  }
+  li.ccrc::marker {
+    color: #FFBF00;
+    font-weight: 900;
+  }
+  li.idp::marker {
+    @apply text-idp;
+    font-weight: 900;
+  }
+  li.memory::marker {
+    @apply text-memory;
+    font-weight: 900;
+  }
+  li.alzheimers::marker {
+    @apply text-alzheimers;
+    font-weight: 900;
+  }
+  li.senior::marker {
+    @apply text-senior;
+    font-weight: 900;
+  }
+
+  img.assisted {
+    @apply border-assisted;
+  }
+
+  img.home_care {
+    @apply border-home_care;
+  }
+
+    img.nursing_homes {
+        @apply border-nursing_homes;
+    }
+
+    img.ccrc {
+        @apply border-ccrc;
+    }
+
+    img.idp {
+        @apply border-idp;
+    }
+
+    img.memory {
+        @apply border-memory;
+    }   
+
+    img.alzheimers {
+        @apply border-alzheimers;
+    }
+
+    img.senior {
+        @apply border-senior;
+    }
+
+    img.navy {
+        @apply border-navy;
+    }

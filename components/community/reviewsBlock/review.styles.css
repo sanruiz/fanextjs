@@ -1,0 +1,17 @@
+/* Style from remove default icon in select */
+select.rev{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none"><path d="M10.7157 18.5945H14.8066V16.5945H10.7157V18.5945ZM3.55664 6.59448V8.59448H21.9657V6.59448H3.55664ZM6.62482 13.5945H18.8975V11.5945H6.62482V13.5945Z" fill="%23525252"/></svg>');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1rem) center;
+}
+
+select:focus {
+  outline: none;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

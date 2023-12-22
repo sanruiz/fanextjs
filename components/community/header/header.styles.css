@@ -1,0 +1,45 @@
+body.modal-open {
+    overflow: hidden;
+}
+
+.divider {
+    @apply border-dotted border-faSilver my-4 md:my-6 p-0;
+}
+
+.comunity-header {
+    grid-template-areas: "score"
+        "gallery"
+        "address"
+        "aditional-care-types"
+        "price"
+        "pricing-button";
+}
+
+.comunity-header .address {
+    grid-area: address;
+}
+
+.comunity-header .aditional-care-types {
+    grid-area: aditional-care-types;
+}
+
+.comunity-header .gallery {
+    grid-area: gallery;
+}
+
+.comunity-header .gallery-images {
+    grid-area: score;
+}
+
+.comunity-header .pricing-button {
+    grid-area: pricing-button;
+}
+
+.comunity-header .prefered-badge {
+    grid-area: gallery;
+    place-items: self-end;
+}
+
+.comunity-header .score {
+    grid-area: score;
+}

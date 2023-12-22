@@ -1,0 +1,12 @@
+.room-pricing summary::marker,
+.room-pricing summary::-webkit-details-marker {
+    @apply hidden;
+}
+
+details.room-pricing summary>.icon {
+    @apply transform rotate-180;
+}
+
+details.room-pricing[open] summary > .icon {
+    @apply transform rotate-0;
+}

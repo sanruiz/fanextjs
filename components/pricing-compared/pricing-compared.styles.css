@@ -1,0 +1,51 @@
+.wrapper {
+  margin-top: 2rem;
+}
+
+.pricing {
+  left: calc(var(--price-percentage) - 26px);
+  top: -3rem;
+}
+
+.vline::before {
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 32px;
+  background-color: #AAA;
+
+}
+
+
+.vilne_price::before {
+  top: 26px;
+  height: 1.35rem;
+
+
+}
+
+
+
+.extended_vline::before {
+  height: 40px;
+}
+
+
+@media (min-width: 768px) {
+
+
+  .pricing {
+    top: -5rem;
+    left: calc(var(--price-percentage) - 48px);
+  }
+
+  .vilne_price::before {
+    top: 42px;
+    height: 3rem;
+
+
+  }
+}

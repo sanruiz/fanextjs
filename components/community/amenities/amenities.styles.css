@@ -1,0 +1,8 @@
+.amenities summary::marker,
+.amenities summary::-webkit-details-marker {
+    @apply hidden;
+}
+
+details.amenities[open] .arrow {
+    @apply transform rotate-180;
+}

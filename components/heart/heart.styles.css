@@ -1,0 +1,109 @@
+/* Large */
+
+.heart-large {
+  position: relative;
+  width: 58px;
+  height: 68px;
+}
+
+.heart-large::before,
+.heart-large::after {
+  content: "";
+  position: absolute;
+  width: 42px;
+  height: 63px;
+  border-radius: 50px 50px 0 0;
+  @apply bg-link;
+}
+
+.heart-large::before {
+  left: 0;
+  transform: rotate(-46deg);
+}
+
+.heart-large::after {
+  right: 0;
+  transform: rotate(46deg);
+}
+
+.heart-large span {
+  @apply text-white absolute text-center pt-4 z-40 font-semibold block;
+  font-size: 24px;
+  height: 58px;
+  width: 68px;
+  margin-left: -5px;
+}
+
+/* Medium */
+
+.heart-medium {
+  position: relative;
+  width: 48px;
+}
+
+.heart-medium::before,
+.heart-medium::after {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 52px;
+  border-radius: 50px 50px 0 0;
+  @apply bg-link;
+}
+
+.heart-medium::before {
+  left: 0;
+  transform: rotate(-46deg);
+}
+
+.heart-medium::after {
+  right: 0;
+  transform: rotate(46deg);
+}
+
+.heart-medium span {
+  @apply text-white absolute text-center w-full pt-2 z-40 font-semibold block;
+  font-size: 24px;
+  text-align: center;
+}
+
+/*small*/
+.heart-small {
+  position: relative;
+  width: 42px;
+  height: 50px;
+}
+
+.heart-small::before,
+.heart-small::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 47px;
+  border-radius: 45px 45px 0 0;
+  @apply bg-background2;
+}
+
+.heart-small::before {
+  left: 0;
+  transform: rotate(-46deg);
+}
+
+.heart-small::after {
+  right: 0;
+  transform: rotate(46deg);
+}
+
+.heart-small span {
+  @apply absolute text-center w-full pt-2 z-40 font-semibold block;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bgBlue::before,
+.bgBlue::after {
+  @apply bg-link text-white;
+}
+.bgBlue span {
+  @apply text-white
+}
